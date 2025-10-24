@@ -1,0 +1,77 @@
+<link rel="stylesheet" href="style.css">
+
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background: #f7f8f4;
+  color: #333;
+}
+
+header {
+  background: #065f46;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px;
+  background: #d1fae5;
+}
+
+footer {
+  background: #065f46;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+/* Form Kontak */
+.form-kontak {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 30px auto;
+  text-align: left;
+}
+
+.form-kontak label {
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.form-kontak input, .form-kontak textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 5px;
+}
+
+.form-kontak button {
+  margin-top: 15px;
+  padding: 10px;
+  background: #065f46;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.form-kontak button:hover {
+  background: #047857;
+}
+
+/* Active Link */
+nav a.active {
+  text-decoration: underline;
+  font-weight: bold;
+}
